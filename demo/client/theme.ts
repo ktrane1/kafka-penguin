@@ -1,5 +1,4 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-import { cyan, amber } from '@material-ui/core/colors'
 
 const theme = createMuiTheme({
   // spacing: factor => `${0.25 * factor}rem`,
@@ -17,7 +16,7 @@ const theme = createMuiTheme({
       contrastText: '#000',
     },
     background: {
-      default: '#f4f4f4'
+      default: '#f4f4f4',
     },
   },
   typography: {
@@ -28,4 +27,4 @@ const theme = createMuiTheme({
   },
 });
 
-export default theme
+export default theme;
